@@ -1,0 +1,2 @@
+rootProject.name = "Patos Servicos"
+include ':app'

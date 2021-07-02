@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63982845950",
+    "project_id": "patosservicos-3b249",
+    "storage_bucket": "patosservicos-3b249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63982845950:android:ecd578029c40c61ae24aaf",
+        "android_client_info": {
+          "package_name": "matheusrodrigues.androidapps.patosservicos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63982845950-gmhmd1581sinkcmoj474uaanu7habvfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "matheusrodrigues.androidapps.patosservicos",
+            "certificate_hash": "fbc581367ab05f588e958c98c433a384695f55cf"
+          }
+        },
+        {
+          "client_id": "63982845950-kb71a20o3j1uvjrau6r4k6a8nfgj085b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG8XA98S12yVbeDGahieeGbJ9QdAuUE8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63982845950-kb71a20o3j1uvjrau6r4k6a8nfgj085b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
