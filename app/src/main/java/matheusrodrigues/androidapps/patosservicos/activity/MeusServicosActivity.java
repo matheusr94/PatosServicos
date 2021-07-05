@@ -1,6 +1,7 @@
 package matheusrodrigues.androidapps.patosservicos.activity;
 
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -82,11 +83,30 @@ public class MeusServicosActivity extends AppCompatActivity {
 
                             @Override
                             public void onLongItemClick(View view, int position) {
+                                AlertDialog.Builder dialogCategoria = new AlertDialog.Builder(MeusServicosActivity.this);
+                                dialogCategoria.setTitle("Deseja fazer a exclusão do serviço?");
 
-                                Anuncio anuncioSelecionado = anuncios.get(position);
-                                anuncioSelecionado.removerAnuncio();
+                                dialogCategoria.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
 
-                                adapterAnuncios.notifyDataSetChanged();
+                                        Anuncio anuncioSelecionado = anuncios.get(position);
+                                        anuncioSelecionado.removerAnuncio();
+                                        adapterAnuncios.notifyDataSetChanged();
+
+                                    }
+                                });
+                                dialogCategoria.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+
+                                    }
+                                });
+
+                                AlertDialog dialog = dialogCategoria.create();
+                                dialog.show();
+
+                                alertDialog.dismiss();
                             }
 
                             @Override

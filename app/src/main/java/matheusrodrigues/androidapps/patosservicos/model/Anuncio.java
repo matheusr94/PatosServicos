@@ -2,9 +2,11 @@ package matheusrodrigues.androidapps.patosservicos.model;
 
 import com.google.firebase.database.DatabaseReference;
 
+import java.io.Serializable;
+
 import matheusrodrigues.androidapps.patosservicos.helper.ConfiguracaoFirebase;
 
-public class Anuncio {
+public class Anuncio implements Serializable {
 
     private String idAnuncio;
     private String cidade;
