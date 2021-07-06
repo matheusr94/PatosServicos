@@ -43,7 +43,7 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="Serviço"
-        android:inputType="textPersonName"
+        android:inputType="textCapWords|textCapSentences|textPersonName"
         android:padding="10dp" />
 
     <com.blackcat.currencyedittext.CurrencyEditText
@@ -73,7 +73,7 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="Descrição do serviço"
-        android:inputType="textPersonName"
+        android:inputType="textCapWords|textCapSentences|textPersonName"
         android:padding="10dp" />
 
     <com.santalu.maskara.widget.MaskEditText
