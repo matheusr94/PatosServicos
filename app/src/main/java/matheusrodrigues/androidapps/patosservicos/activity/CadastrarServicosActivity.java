@@ -34,6 +34,8 @@ public class CadastrarServicosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastrar_servicos);
 
+        getSupportActionBar().setTitle("Cadastro de Serviços");
+
         inicializarComponentes();
         carregarDadosDoSpinner();
     }

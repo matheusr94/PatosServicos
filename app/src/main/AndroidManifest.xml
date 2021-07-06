@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PatosServicos">
         <activity android:name=".activity.DetalhesServicosActivity" android:parentActivityName=".activity.AnunciosActivity"></activity>
-        <activity android:name=".activity.CadastrarServicosActivity" />
+        <activity android:name=".activity.CadastrarServicosActivity" android:parentActivityName=".activity.MeusServicosActivity" />
         <activity
             android:name=".activity.MeusServicosActivity"
             android:parentActivityName=".activity.AnunciosActivity" />

@@ -54,6 +54,9 @@ public class AnunciosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anuncios);
+
+        getSupportActionBar().setTitle("Serviços Disponíveis");
+
         inicializarComponentes();
 
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();

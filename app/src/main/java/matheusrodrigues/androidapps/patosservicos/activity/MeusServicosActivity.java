@@ -45,6 +45,8 @@ public class MeusServicosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meus_servicos);
 
+        getSupportActionBar().setTitle("Meus serviços");
+
 
         anunciosUsuarioRef = ConfiguracaoFirebase.getFirebase()
                 .child("meus_anuncios")
